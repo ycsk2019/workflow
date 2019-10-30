@@ -1,0 +1,30 @@
+{
+    "name": "Ycsk/definedform",
+    "description": "a laravel package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ycsk",
+            "email": "admin@ifcar99.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ycsk\\Definedform\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ycsk\\Definedform\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ycsk\\Definedform\\DefinedformServiceProvider"
+            ]
+        }
+    }
+}
